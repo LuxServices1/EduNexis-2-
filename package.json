@@ -1,0 +1,22 @@
+{
+  "name": "edunexis(2)",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"npm run dev --prefix backend\" \"npm start --prefix frontend\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "dependencies": {
+    "@mui/x-charts": "^7.27.0",
+    "@mui/x-data-grid": "^7.27.0",
+    "@mui/x-date-pickers": "^7.27.0",
+    "@mui/x-tree-view": "^7.26.0"
+  }
+}
